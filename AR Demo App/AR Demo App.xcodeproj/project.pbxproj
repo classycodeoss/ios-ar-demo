@@ -8,17 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		733484B4CA0CDF272EFB5B40 /* Pods_AR_Demo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1652073B2A1222D9DCE78C9 /* Pods_AR_Demo_App.framework */; };
-		A80D89861E79470100B17447 /* classy_crab.stl in Resources */ = {isa = PBXBuildFile; fileRef = A80D89851E79470100B17447 /* classy_crab.stl */; };
 		A85FCB571E7853A400185F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85FCB561E7853A400185F92 /* AppDelegate.swift */; };
 		A85FCB591E7853A400185F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85FCB581E7853A400185F92 /* ViewController.swift */; };
 		A85FCB5C1E7853A400185F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85FCB5A1E7853A400185F92 /* Main.storyboard */; };
 		A85FCB5E1E7853A400185F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85FCB5D1E7853A400185F92 /* Assets.xcassets */; };
 		A85FCB611E7853A400185F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85FCB5F1E7853A400185F92 /* LaunchScreen.storyboard */; };
+		A8A231621EB86E3D003C8018 /* classy_crab.stl in Resources */ = {isa = PBXBuildFile; fileRef = A8A231611EB86E3D003C8018 /* classy_crab.stl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		405974E97DDF0E53EA722EDC /* Pods-AR Demo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Demo App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AR Demo App/Pods-AR Demo App.debug.xcconfig"; sourceTree = "<group>"; };
-		A80D89851E79470100B17447 /* classy_crab.stl */ = {isa = PBXFileReference; lastKnownFileType = file; name = classy_crab.stl; path = ../../../../../Desktop/blogpost/classy_crab.stl; sourceTree = "<group>"; };
 		A85FCB531E7853A400185F92 /* AR Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85FCB561E7853A400185F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85FCB581E7853A400185F92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		A85FCB5D1E7853A400185F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85FCB601E7853A400185F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85FCB621E7853A400185F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A231611EB86E3D003C8018 /* classy_crab.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = classy_crab.stl; sourceTree = "<group>"; };
 		B6A33A9F2A412DC81B7AAC26 /* Pods-AR Demo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Demo App.release.xcconfig"; path = "Pods/Target Support Files/Pods-AR Demo App/Pods-AR Demo App.release.xcconfig"; sourceTree = "<group>"; };
 		D1652073B2A1222D9DCE78C9 /* Pods_AR_Demo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Demo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 		A85FCB551E7853A400185F92 /* AR Demo App */ = {
 			isa = PBXGroup;
 			children = (
-				A80D89851E79470100B17447 /* classy_crab.stl */,
+				A8A231611EB86E3D003C8018 /* classy_crab.stl */,
 				A85FCB561E7853A400185F92 /* AppDelegate.swift */,
 				A85FCB581E7853A400185F92 /* ViewController.swift */,
 				A85FCB5A1E7853A400185F92 /* Main.storyboard */,
@@ -156,7 +156,7 @@
 			files = (
 				A85FCB611E7853A400185F92 /* LaunchScreen.storyboard in Resources */,
 				A85FCB5E1E7853A400185F92 /* Assets.xcassets in Resources */,
-				A80D89861E79470100B17447 /* classy_crab.stl in Resources */,
+				A8A231621EB86E3D003C8018 /* classy_crab.stl in Resources */,
 				A85FCB5C1E7853A400185F92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
